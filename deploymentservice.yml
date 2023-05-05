@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: r3internal/nodeapp:latest
+        image: registry-intl.ap-southeast-5.aliyuncs.com/r3internal/nodeapp:latest
         ports:
         - containerPort: 3000
         
